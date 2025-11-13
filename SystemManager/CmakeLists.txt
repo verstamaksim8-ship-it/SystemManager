@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.12)
+project(SystemManager)
+
+# Настройки компилятора
+set(CMAKE_CXX_STANDARD 17)
+
+# Создаем исполняемый файл
+add_executable(SystemManager src/main.cpp)
